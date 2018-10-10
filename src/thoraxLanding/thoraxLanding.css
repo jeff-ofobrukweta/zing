@@ -1,0 +1,6 @@
+.home-container--first-top-short .home-container_section:first-child {
+    padding-top: 36px;
+}
+.home-container_section--bottom-short, .home-container_section--bottom-short:last-child {
+    padding-bottom: 36px;
+}
