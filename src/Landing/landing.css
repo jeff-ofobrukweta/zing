@@ -10,7 +10,7 @@ body{
     background-color: rgb(23, 23, 23) !important;
     background-size: cover;
     background-position: 50%;
-    background-image: url('../img/tablefood.jpg')  !important;
+    background-image: url('../img/burger.jpg')  !important;
 }
 .y-container {
     background-color: #fff;
@@ -73,7 +73,7 @@ ol, ul {
     padding-bottom: 8px;
 }
 .hero-header_nav .header-nav_link, .hero-header_nav .header-nav_text {
-    color: #fff;
+    color: #fff !important;
     display: block;
     padding: 9px 12px 10px;
     font-size: 14px;
@@ -135,7 +135,7 @@ a {
     padding: 0 12px;
 }
 .homepage-hero_link {
-    color: #fff;
+    color: #fff !important;
     font-weight: 700;
 }
 a {
@@ -264,10 +264,10 @@ html:not(.ie9) .dropdown--fade .dropdown_menu {
     display: inline;
 }
 .homepage-hero .business-link-hovercard_business-link .biz-name {
-    color: #fff;
+    color: #fff !important;
 }
 .homepage-hero_photo-owner, .homepage-hero_photo-owner-link {
-    color: #fff;
+    color: #fff !important;
 }
 
 

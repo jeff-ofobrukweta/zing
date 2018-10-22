@@ -6,6 +6,10 @@ import Landing from './Landing/landing';
 import {Route,Switch} from 'react-router-dom';
 import './App.css';
 class App extends Component {
+  componentWillMount(){
+    
+    
+  }
   render() {
     return (
       <div className="w3-theme-l5">

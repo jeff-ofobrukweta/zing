@@ -1,0 +1,74 @@
+.home-container_section--top-long {
+    padding-top: 72px;
+}
+.u-text-centered {
+    text-align: center!important;
+}
+.location-bar {
+    border-bottom: 1px solid #ccc;
+}
+.tab-nav--center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.tab-nav--center, .tab-nav--full .tab-link--nav {
+    text-align: center;
+}
+.tab-nav {
+    display: table;
+    margin: 0 0 -1px;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    *zoom: 1;
+}
+.tab-nav_item {
+    display: table-cell;
+    vertical-align: middle;
+    *float: left;
+}
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.tab-nav {
+    display: table;
+    margin: 0 0 -1px;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    *zoom: 1;
+}
+.tab-link--nav {
+    color: #666 !important;
+    padding: 0 12px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+.tab-link--nav:hover {
+    border-bottom: 3px solid #d50405;
+}
+.tab-link {
+    display: block;
+    vertical-align: bottom;
+    line-height: 1;
+    white-space: nowrap;
+}
+.tab-link--nav .tab-link_count, .tab-link--nav .tab-link_icon-wrap, .tab-link--nav .tab-link_label, .tab-link--nav .tab-link_notification {
+    line-height: 30px;
+}
+.tab-link_count, .tab-link_label, .tab-link_notification {
+    display: inline-block;
+}
+.tab-link--nav .tab-link_count:before, .tab-link--nav .tab-link_label:before {
+    display: block;
+    font-weight: 700;
+    overflow: hidden;
+    visibility: hidden;
+    height: 0;
+    content: attr(title);
+}

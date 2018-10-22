@@ -29,7 +29,8 @@ class Latestcollections extends Component {
         <label class="main-search_pseudo-input main-search_pseudo-input--find pseudo-input" for="find_desc">
             <span class="pseudo-input_text">
             <font style={{verticalAlign: 'inherit'}}>
-            <font style={{verticalAlign: 'inherit'}}>Find
+            <font style={{verticalAlign: 'inherit'}}>
+                Find
             </font>
             </font>
             </span>
@@ -40,7 +41,9 @@ class Latestcollections extends Component {
             </span>
         </label>
         <div class="main-search_suggestions suggestions-list-container search-suggestions-list-container hidden" data-component-bound="true">
-            <ul class="suggestions-list" role="listbox" aria-label="Sökresultat"></ul>
+            <ul class="suggestions-list" role="listbox" aria-label="Sökresultat">
+                
+            </ul>
         </div>
     </div>
 </div>
@@ -84,7 +87,9 @@ class Latestcollections extends Component {
             <div class="media-block"><div class="media-story">
             <span class="suggestion-detail"><span class="suggestion-detail suggestion-title suggestion-name">
             <font style={{verticalAlign: 'inherit'}}><font style={{verticalAlign: 'inherit'}}>Stockholm, Stockholm County</font></font></span></span>
-            <small class="suggestion-detail suggestion-subtitle suggestion-location"></small></div></div></li></ul>
+            <small class="suggestion-detail suggestion-subtitle suggestion-location"></small></div></div>
+            </li>
+            </ul>
         </div>
     </div>
 

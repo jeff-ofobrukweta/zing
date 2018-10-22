@@ -56,10 +56,10 @@ h2 {
     word-wrap: break-word!important;
     word-break: break-word!important;
     overflow-wrap: break-word!important;
-    font-weight: 700;
-    margin-bottom: 6px;
-    font-size: 21px;
-    line-height: 1.28571em;
+    font-weight: 700 !important;
+    margin-bottom: 6px !important;
+    font-size: 21px !important;
+    line-height: 1.28571em !important;
     color: #d32323;
 }
 h2.alternate {
@@ -95,10 +95,13 @@ a.ybtn {
 }
 .ybtn--primary, .ybtn-primary {
     color: #fff !important;
-    border-color: #8d0005;
+    border:0px;
     -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.3);
     box-shadow: 0 1px 1px rgba(0,0,0,.3);
     background-color: #d90007;
     background: -webkit-gradient(linear,left top,left bottom,from(#d90007),to(#c91400));
     background: linear-gradient(#d90007,#c91400);
+}
+.arrange--middle>.arrange_unit {
+    vertical-align: middle !important;
 }
